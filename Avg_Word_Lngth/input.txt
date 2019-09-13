@@ -1,0 +1,9 @@
+hadoop
+hive
+sqoop
+kafka
+maven
+github
+git
+jenkins
+tomcat
