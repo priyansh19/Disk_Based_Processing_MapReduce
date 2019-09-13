@@ -28,12 +28,7 @@ public class Map extends Mapper<LongWritable,Text,Text,IntWritable>{
 
         for (String word : line.split("\\W+")){
             if (word.length() > 0) {
-
-                // ---------------------------------------------
-                // firstLetter assignment
                 firstLetter.set(String.valueOf(word.charAt(0)));
-                // ---------------------------------------------
-
                 wordLength.set(word.length());
                 context.write(firstLetter, wordLength);
             }
