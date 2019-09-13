@@ -1,6 +1,8 @@
 hadoop
 hive
+hue
 sqoop
+scala
 kafka
 maven
 github

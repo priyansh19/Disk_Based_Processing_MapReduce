@@ -1,5 +1,6 @@
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -35,7 +36,7 @@ public class Driver extends Configured implements Tool {
   job.setMapOutputValueClass(IntWritable.class);
 
   job.setOutputKeyClass(Text.class);
-  job.setOutputValueClass(IntWritable.class);
+  job.setOutputValueClass(DoubleWritable.class);
 
   FileInputFormat.addInputPath(job,new Path(args[0]));
   FileOutputFormat.setOutputPath(job,new Path(args[1]));
