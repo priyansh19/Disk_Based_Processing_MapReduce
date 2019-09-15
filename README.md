@@ -44,7 +44,84 @@ INPUT FILE NAME : Name of Input file we placed in hdfs
 OUTPUT DIR NAME : Name of Output directory to be created
 ```
 ## If your program runs successfully then you will find it like this :
-
+```
+19/09/13 02:48:59 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+19/09/13 02:48:59 INFO input.FileInputFormat: Total input paths to process : 1
+19/09/13 02:48:59 WARN hdfs.DFSClient: Caught exception 
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1281)
+	at java.lang.Thread.join(Thread.java:1355)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.closeResponder(DFSOutputStream.java:967)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.endBlock(DFSOutputStream.java:705)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:894)
+19/09/13 02:48:59 INFO mapreduce.JobSubmitter: number of splits:1
+19/09/13 02:48:59 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1568355876268_0005
+19/09/13 02:49:00 INFO impl.YarnClientImpl: Submitted application application_1568355876268_0005
+19/09/13 02:49:00 INFO mapreduce.Job: The url to track the job: http://quickstart.cloudera:8088/proxy/application_1568355876268_0005/
+19/09/13 02:49:00 INFO mapreduce.Job: Running job: job_1568355876268_0005
+19/09/13 02:49:06 INFO mapreduce.Job: Job job_1568355876268_0005 running in uber mode : false
+19/09/13 02:49:06 INFO mapreduce.Job:  map 0% reduce 0%
+19/09/13 02:49:11 INFO mapreduce.Job:  map 100% reduce 0%
+19/09/13 02:49:17 INFO mapreduce.Job:  map 100% reduce 100%
+19/09/13 02:49:17 INFO mapreduce.Job: Job job_1568355876268_0005 completed successfully
+19/09/13 02:49:17 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=94
+		FILE: Number of bytes written=288031
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=187
+		HDFS: Number of bytes written=56
+		HDFS: Number of read operations=6
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3075
+		Total time spent by all reduces in occupied slots (ms)=3318
+		Total time spent by all map tasks (ms)=3075
+		Total time spent by all reduce tasks (ms)=3318
+		Total vcore-milliseconds taken by all map tasks=3075
+		Total vcore-milliseconds taken by all reduce tasks=3318
+		Total megabyte-milliseconds taken by all map tasks=3148800
+		Total megabyte-milliseconds taken by all reduce tasks=3397632
+	Map-Reduce Framework
+		Map input records=11
+		Map output records=11
+		Map output bytes=66
+		Map output materialized bytes=94
+		Input split bytes=121
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=7
+		Reduce shuffle bytes=94
+		Reduce input records=11
+		Reduce output records=7
+		Spilled Records=22
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=89
+		CPU time spent (ms)=870
+		Physical memory (bytes) snapshot=435740672
+		Virtual memory (bytes) snapshot=3015176192
+		Total committed heap usage (bytes)=418385920
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=66
+	File Output Format Counters 
+		Bytes Written=56
+```
 ## How to check your output ?
 
 To check your output type 
