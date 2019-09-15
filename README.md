@@ -37,12 +37,10 @@ Command to run map and reduce tasks on input file:
 ```shell
 hadoop jar <JAR NAME>.jar <CLASS NAME> <INPUT FILE NAME>.txt <OUTPUT DIR NAME>
 ```
+```
 JAR NAME : Name of the .jar file exported after writing code
-  
 CLASS NAME : Name of Driver Class of MapReduce Program
-  
 INPUT FILE NAME : Name of Input file we placed in hdfs
-  
 OUTPUT DIR NAME : Name of Output directory to be created
-  
+```
   
