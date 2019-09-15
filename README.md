@@ -32,7 +32,7 @@ For example- if we have two word in a file named Hadoop and Hive then the output
   ```shell
   hdfs dfs -put <input.file name>
   ```
-Command to run map and reduce tasks on input file:
+## Command to run map and reduce tasks on input file:
 
 ```shell
 hadoop jar <JAR NAME>.jar <CLASS NAME> <INPUT FILE NAME>.txt <OUTPUT DIR NAME>
@@ -43,4 +43,12 @@ CLASS NAME : Name of Driver Class of MapReduce Program
 INPUT FILE NAME : Name of Input file we placed in hdfs
 OUTPUT DIR NAME : Name of Output directory to be created
 ```
-  
+## If your program runs successfully then you will find it like this :
+
+## How to check your output ?
+
+To check your output type 
+```shell 
+hdfs dfs -cat <OUTPUT DIR NAME>/part*
+```
+it will take few seconds to execute and then display your output file contents
