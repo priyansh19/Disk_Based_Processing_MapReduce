@@ -20,5 +20,6 @@ Length of each unique word will be counted and stored in output file in HDFS < [
 Average Length of each unique word on the basis of thier first letter will be counted and stored in output file in HDFS < [name of Output dir mentioned in command]/part* > 
 
 For example- if we have two word in a file named Hadoop and Hive then the output will be 
+
         hadoop - 6 and hive - 4 => 6+4 => 10/no.of words
         output =>  h    5 
