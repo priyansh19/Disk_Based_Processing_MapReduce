@@ -24,4 +24,22 @@ For example- if we have two word in a file named Hadoop and Hive then the output
         hadoop - 6 and hive - 4 => 6+4 => 10/no.of words
         output =>  h    5 
 
-# :loudspeaker: Commands to trigger MapReduce programs:
+# :rainbow: Commands to trigger MapReduce programs:
+
+## Prerequisites:
+  1. Make sure the .jar file should be placed in the same directory in which your terminal is running
+  2. place the input file into HDFS by following command
+  ```shell
+  hdfs dfs -put <input.file name>
+  ```
+Command to run map and reduce tasks on input file:
+
+```shell
+hadoop jar <JAR NAME>.jar <CLASS NAME> <INPUT FILE NAME>.txt <OUTPUT DIR NAME>
+```
+<JAR NAME> : Name of the .jar file exported after writing code
+<CLASS NAME> : Name of Driver Class of MapReduce Program
+<INPUT FILE NAME> : Name of Input file we placed in hdfs
+<OUTPUT DIR NAME> : Name of Output directory to be created
+  
+  
