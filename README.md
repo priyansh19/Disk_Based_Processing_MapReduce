@@ -23,3 +23,5 @@ For example- if we have two word in a file named Hadoop and Hive then the output
 
         hadoop - 6 and hive - 4 => 6+4 => 10/no.of words
         output =>  h    5 
+
+# :octocat: Commands to trigger MapReduce programs:
