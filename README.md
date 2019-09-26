@@ -23,6 +23,9 @@ For example- if we have two word in a file named Hadoop and Hive then the output
 
         hadoop - 6 and hive - 4 => 6+4 => 10/no.of words
         output =>  h    5 
+	
+  ## 6. [No. of Hits per IP Address](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/Hits_IP) :
+Number of Hits on each unique IP Address on the basis of weblogs will be counted and stored in output file in HDFS < [name of Output dir mentioned in command]/part* > 
 
 # :rainbow: Commands to trigger MapReduce programs:
 
