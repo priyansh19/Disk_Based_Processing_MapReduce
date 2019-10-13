@@ -27,6 +27,9 @@ For example- if we have two word in a file named Hadoop and Hive then the output
   ## 6. [No. of Hits per IP Address](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/Hits_IP) :
 Number of Hits on each unique IP Address on the basis of weblogs will be counted and stored in output file in HDFS < [name of Output dir mentioned in command]/part* > 
 
+  ## 7. [WordCount Using Combiner Class]() :
+  A new Class is added in Driver code of the program making execution fast :innocent:
+  
 # :rainbow: Commands to trigger MapReduce programs:
 
 ## Prerequisites:
