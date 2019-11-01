@@ -13,7 +13,6 @@ public class WordCountDriver {
     Job job = Job.getInstance(conf, "word count");
     job.setJarByClass(WordCountDriver.class);
     job.setMapperClass(Map.class);
-    job.setCombinerClass(Reduce.class);
     job.setReducerClass(Reduce.class);
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(IntWritable.class);
