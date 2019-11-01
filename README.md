@@ -29,6 +29,7 @@ Number of Hits on each unique IP Address on the basis of weblogs will be counted
 
   ## 7. [WordCount Using Combiner Class](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/WordCountUsingCombinerClass) :
   A new Class is added in Driver code of the program making execution fast :innocent:
+  Combiner class gets executed just after mapping phase and aggregates the data to help reducer in faster execution.
   
 # :rainbow: Commands to trigger MapReduce programs:
 
