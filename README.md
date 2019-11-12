@@ -34,7 +34,7 @@ Number of Hits on each unique IP Address on the basis of weblogs will be counted
   Just like there is a testing tool in java "JUNIT" there is "MRUnit" in MapReduce to test whether the code is running properly or not. We can test code by passing sample inputs and check the outputs.  
   ## 9. [Exploring Yarn And HUE](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/Exploring_Yarn_And_Hue) :
   Hadoop offers a UI tool for getting a UI expirience i.e HUE. We will bw exploring HUE using some Screenshots.
-  ## 10. [Hadoop Streaming]() :
+  ## 10. [Hadoop Streaming](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/Hadoop_Streaming_Python) :
   Hadoop Mapreduce is not limited to java it also supports various programming language like python perl and many other languages with the help of hadoop streaming libraries. 
   ## 11. [Hadoop Log Processing]() :
   Since it is a Map only task it includes only mapper and a driver to process access logs. It finds theno of Hits per Image format on a particular site.
