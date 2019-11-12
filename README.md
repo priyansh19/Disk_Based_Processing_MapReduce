@@ -36,7 +36,8 @@ Number of Hits on each unique IP Address on the basis of weblogs will be counted
   Hadoop offers a UI tool for getting a UI expirience i.e HUE. We will bw exploring HUE using some Screenshots.
   ## 10. [Hadoop Streaming]() :
   Hadoop Mapreduce is not limited to java it also supports various programming language like python perl and many other languages with the help of hadoop streaming libraries. 
-  
+  ## 11. [Hadoop Log Processing]() :
+  Since it is a Map only task it includes only mapper and a driver to process access logs. It finds theno of Hits per Image format on a particular site.
 # :rainbow: Commands to trigger MapReduce programs:
 
 ## Prerequisites:
