@@ -38,7 +38,7 @@ Number of Hits on each unique IP Address on the basis of weblogs will be counted
   Hadoop Mapreduce is not limited to java it also supports various programming language like python perl and many other languages with the help of hadoop streaming libraries. 
   ## 11. [Hadoop Log Processing](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/Hadoop_Log_Processing) :
   Since it is a Map only task it includes only mapper and a driver to process access logs. It finds theno of Hits per Image format on a particular site.
-  ## 12. [Hadoop Custom Partitoner]() :
+  ## 12. [Hadoop Custom Partitoner](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/Hadoop_Custom_Partitioner) :
   Implementing a custom partitioner helps us customising partitoners according to the requirement of the user and storing customised data in different Reducers.
 # :rainbow: Commands to trigger MapReduce programs:
 
