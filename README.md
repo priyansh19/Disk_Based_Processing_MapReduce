@@ -5,8 +5,9 @@ In Disk Based processing we learn to use various Bigdata tools for example: MapR
 ## :grey_question: Pre-Requisites to run Mapreduce Programs:
 
 - Pre-configured Cloudera Quistart VM
-	-- With Minimum 8 Gb Ram
-	-- 4 Cpu
+
+	- With Minimum 8 Gb Ram
+	- 4 Cpu
 	
 ## :computer: Here are the basic implementations of Mapreduce Programs:
   ## 1. [Word Count Program](https://github.com/priyansh19/Disk_Based_Processing_MapReduce/tree/master/WordCount) :
